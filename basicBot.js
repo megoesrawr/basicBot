@@ -1,9 +1,3 @@
-/**
- *Copyright 2014 Yemasthui
- *Modifications (including forks) of the code to fit personal needs are allowed only for personal use and should refer back to the original source.
- *This software is not for profit, any extension, or unauthorised person providing this software is not authorised to be in a position of any monetary gain from this use of this software. Any and all money gained under the use of the software (which includes donations) must be passed on to the original author.
- */
-
 
 (function () {
 
@@ -191,17 +185,17 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBot",
+            botName: "UberBot",
             language: "english",
             chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
             startupEmoji: false, // true or false
             maximumAfk: 120,
-            afkRemoval: true,
+            afkRemoval: false,
             maximumDc: 60,
             bouncerPlus: true,
-            blacklistEnabled: true,
+            blacklistEnabled: false,
             lockdownEnabled: false,
             lockGuard: false,
             maximumLocktime: 10,
@@ -209,11 +203,11 @@
             maximumCycletime: 10,
             voteSkip: false,
             voteSkipLimit: 10,
-            timeGuard: true,
+            timeGuard: false,
             maximumSongLength: 10,
             autodisable: true,
             commandCooldown: 30,
-            usercommandsEnabled: true,
+            usercommandsEnabled: false,
             lockskipPosition: 3,
             lockskipReasons: [
                 ["theme", "This song does not fit the room theme. "],
@@ -229,9 +223,9 @@
             motdEnabled: false,
             motdInterval: 5,
             motd: "Temporary Message of the Day",
-            filterChat: true,
+            filterChat: false,
             etaRestriction: false,
-            welcome: true,
+            welcome: false,
             opLink: null,
             rulesLink: null,
             themeLink: null,
@@ -241,7 +235,7 @@
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
-            commandLiteral: "!",
+            commandLiteral: "***",
             blacklists: {
                 NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
                 OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
@@ -252,9 +246,9 @@
             afkList: [],
             mutedUsers: [],
             bannedUsers: [],
-            skippable: true,
-            usercommand: true,
-            allcommand: true,
+            skippable: false,
+            usercommand: false,
+            allcommand: false,
             afkInterval: null,
             autoskip: false,
             autoskipTimer: null,
@@ -266,7 +260,7 @@
                 }
             },
             queueing: 0,
-            queueable: true,
+            queueable: false,
             currentDJID: null,
             historyList: [],
             cycleTimer: setTimeout(function () {
