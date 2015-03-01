@@ -49,14 +49,18 @@
         },
         
         eventDjadvance: function (obj) {
-        	if (obj == null) return; // no dj
+        	// check if dj is present
+        	if (obj == null) return;
         	
+        	// get dj username
         	var str = "";
         	var currentDJ = obj.dj;
         	str += currentDJ.username;
         	        	  
+        	// get media name and title
         	str += " || " + obj.media.author + " || " + obj.media.title;
         	 
+        	// print them to chat
         	API.sendChat(str);
         },
         
