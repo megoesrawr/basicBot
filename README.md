@@ -1,4 +1,4 @@
-basicBot
+BukkitBot
 ========
 
 A not so basic bot for plug.dj
