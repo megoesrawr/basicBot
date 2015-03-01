@@ -44,8 +44,7 @@
         settings: {
             botName: "Bukkit Bot",
             language: "english",
-            chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
-            songstats: true,
+            chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json"
         },
         
         eventDjadvance: function (obj) {
@@ -65,6 +64,7 @@
         },
         
         connectAPI: function () {
+        	// connect to plug.dj API
             this.proxy = {
                 eventDjadvance: $.proxy(this.eventDjadvance, this)
             };
@@ -72,20 +72,26 @@
         },
         
         disconnectAPI: function () {
+        	// disconnect API
             API.off(API.ADVANCE, this.proxy.eventDjadvance);
         },
         
         startup: function () {
+        	// load bot        	
             Function.prototype.toString = function () {
                 return 'Function.'
             };
+            
+            // register dj advance event
             basicBot.connectAPI();
             window.bot = basicBot;
 
+            // send chat
             API.sendChat("Bot loaded successfully");
         }
     };
 
+    // start bot
     loadChat(basicBot.startup);
     
 }).call(this);
