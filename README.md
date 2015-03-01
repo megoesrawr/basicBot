@@ -1,9 +1,7 @@
 BukkitBot
 ========
 
-A not so basic bot for plug.dj
-
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Yemasthui/basicBot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![facebook group](http://i.bnzi.uk/97dW.svg)](https://facebook.com/groups/basicBot) [![twitter](http://i.bnzi.uk/4KEn.svg)](https://twitter.com/bscBt)
+A not so basic plug.dj bot for Bukkit or Spigot
 
 ==============================================================================================
 
@@ -21,8 +19,12 @@ If this does not work, go to https://raw.githubusercontent.com/CustomCraftDev/ba
 This bot was customized to fit personal needs.
 Original Bot: https://github.com/Yemasthui/basicBot
 
+==============================================================================================
+
 Copyright
 ---------
+
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Yemasthui/basicBot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![facebook group](http://i.bnzi.uk/97dW.svg)](https://facebook.com/groups/basicBot) [![twitter](http://i.bnzi.uk/4KEn.svg)](https://twitter.com/bscBt)
 
 Copyright &copy; 2015 Yemasthui
 
