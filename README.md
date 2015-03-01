@@ -3,7 +3,7 @@ BukkitBot
 
 A not so basic plug.dj bot for Bukkit or Spigot
 
-==============================================================================================
+You will also need the server plugin.
 
 Usage
 -----
@@ -14,12 +14,8 @@ Bookmark the following code. To run the bot, run the bookmark.
 
 If this does not work, go to https://raw.githubusercontent.com/CustomCraftDev/basicBot/master/basicBot.js and copy paste its content into your console (accessible in chrome by pressing f12) when on plug.dj in your community.
 
-###Extending functionality and custom default settings###
-
-This bot was customized to fit personal needs.
-Original Bot: https://github.com/Yemasthui/basicBot
-
 ==============================================================================================
+
 
 Copyright
 ---------
