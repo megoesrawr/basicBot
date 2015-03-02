@@ -3,6 +3,7 @@ BukkitBot
 
 A not so basic plug.dj bot for Bukkit or Spigot
 
+Tested with Chrome, Firefox and Internet Explorer.
 You will also need the server plugin.
 
 Usage
@@ -12,7 +13,7 @@ Bookmark the following code. To run the bot, run the bookmark.
 
 `javascript:(function(){$.getScript('https://github.com/CustomCraftDev/basicBot/master/basicBot.js');})();`
 
-If this does not work, go to https://raw.githubusercontent.com/CustomCraftDev/basicBot/master/basicBot.js and copy paste its content into your console (accessible in chrome by pressing f12) when on plug.dj in your community.
+If this does not work, go to https://raw.githubusercontent.com/CustomCraftDev/basicBot/master/basicBot.js and copy paste its content into your console (accessible in most browsers by pressing f12) when on plug.dj in your community.
 
 ==============================================================================================
 
