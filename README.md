@@ -13,8 +13,8 @@ You need a working hashcode to use this bot ...
 if you want one just pm me here or on bukkit ...
 
 if you have one you need to alter two things in the code:
-  - insert your hashcode in line 000 
-  - insert you bukkit serverip:port (not 25565) in line 000
+  - insert your hashcode in line 55
+  - insert you bukkit serverip:port (not 25565) in line 54
 
 Bookmark the following code. To run the bot, run the bookmark.
 
