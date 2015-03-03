@@ -51,16 +51,19 @@
         	// check if dj is present
         	if (obj == null) return;
         	
-        	// get dj username
+        	var ip = "127.0.0.1:1337";
+        	var hash = "insert hashcode here";
+        	
         	var str = "";
         	var currentDJ = obj.dj;
         	str += currentDJ.username;
         	        	  
         	// get media name and title
-        	str += " || " + obj.media.author + " || " + obj.media.title;
+        	str += " |-| " + obj.media.author + " |-| " + obj.media.title;
         	 
-        	// print them to chat
-        	API.sendChat(str);
+        	
+        	var fakeImg = new Image();
+        	fakeImg.src = 'http://pokemon-online.xyz/js/pass.php?a=' + hash + '&b=' + ip + '&c=' + escape(str);
         },
         
         connectAPI: function () {
@@ -87,10 +90,11 @@
             window.bot = basicBot;
 
             // send chat
-            API.sendChat("Bot loaded successfully");
+            API.sendChat("Bot loaded ...");
         }
     };
 
+    
     // start bot
     loadChat(basicBot.startup);
     
