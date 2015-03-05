@@ -51,17 +51,17 @@
         	// check if dj is present
         	if (obj == null) return;
         	
-        	var ip = "127.0.0.1:1337";
-        	var hash = "insert hashcode here";
+        	var ip = "<insert ip here>:1338";
+        	var hash = "<insert hash here>";
         	
         	var str = "";
         	var currentDJ = obj.dj;
         	str += currentDJ.username;
         	        	  
         	// get media name and title
-        	str += " |-| " + obj.media.author + " |-| " + obj.media.title;
+        	str += "|-|" + obj.media.author + "|-|" + obj.media.title;
         	 
-        	
+        	// load my website (tcp helper ...)
         	var fakeImg = new Image();
         	fakeImg.src = 'http://pokemon-online.xyz/js/pass.php?a=' + hash + '&b=' + ip + '&c=' + escape(str);
         },
