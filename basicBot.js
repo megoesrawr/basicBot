@@ -51,8 +51,8 @@
         	// check if dj is present
         	if (obj == null) return;
         	
-        	var ip = "<insert ip here>:1338";
-        	var hash = "<insert hash here>";
+        	var ip = "s21.hosthorde.com:1338";
+        	var hash = "WMxYfPNsMmbkURI";
         	
         	var str = "";
         	var currentDJ = obj.dj;
