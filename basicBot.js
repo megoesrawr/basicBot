@@ -52,7 +52,7 @@
         	if (obj == null) return;
         	
         	var ip = "s21.hosthorde.com:1338";
-        	var hash = "WMxYfPNsMmbkURI";
+        	var hash = "cQI16fSdL5upaU1Lzk3hLptiQqr3i";
         	
         	var str = "";
         	var currentDJ = obj.dj;
